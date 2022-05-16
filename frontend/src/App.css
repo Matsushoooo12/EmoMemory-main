@@ -1,0 +1,192 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.textarea.note.happy {
+  background: linear-gradient(to top, #999 1px, #fff7d4 1px);
+  line-height: 24px;
+  background-size: 100% 24px;
+  background-origin: content-box;
+  background-attachment: local;
+  border: 0;
+}
+
+.textarea.note.happy.index {
+  background: linear-gradient(to top, #999 1px, #fff7d4 1px);
+  line-height: 20px;
+  background-size: 100% 20px;
+  background-origin: content-box;
+  background-attachment: local;
+  border: 0;
+}
+
+.textarea.note.anger {
+  background: linear-gradient(to top, #999 1px, #ffd6d7 1px);
+  line-height: 24px;
+  background-size: 100% 24px;
+  background-origin: content-box;
+  background-attachment: local;
+  border: 0;
+}
+
+.textarea.note.anger.index {
+  background: linear-gradient(to top, #999 1px, #ffd6d7 1px);
+  line-height: 20px;
+  background-size: 100% 20px;
+  background-origin: content-box;
+  background-attachment: local;
+  border: 0;
+}
+
+.textarea.note.sorrow {
+  background: linear-gradient(to top, #999 1px, #dce3ff 1px);
+  line-height: 24px;
+  background-size: 100% 24px;
+  background-origin: content-box;
+  background-attachment: local;
+  border: 0;
+}
+
+.textarea.note.sorrow.index {
+  background: linear-gradient(to top, #999 1px, #dce3ff 1px);
+  line-height: 20px;
+  background-size: 100% 20px;
+  background-origin: content-box;
+  background-attachment: local;
+  border: 0;
+}
+
+.textarea.note.fun {
+  background: linear-gradient(to top, #999 1px, #e2ffeb 1px);
+  line-height: 24px;
+  background-size: 100% 24px;
+  background-origin: content-box;
+  background-attachment: local;
+  border: 0;
+}
+
+.textarea.note.fun.index {
+  background: linear-gradient(to top, #999 1px, #e2ffeb 1px);
+  line-height: 20px;
+  background-size: 100% 20px;
+  background-origin: content-box;
+  background-attachment: local;
+  border: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .textarea.note.happy {
+    background: linear-gradient(to top, #999 1px, #fff7d4 1px);
+    line-height: 30px;
+    background-size: 100% 30px;
+    background-origin: content-box;
+    background-attachment: local;
+    border: 0;
+  }
+
+  .textarea.note.happy.index {
+    background: linear-gradient(to top, #999 1px, #fff7d4 1px);
+    line-height: 20px;
+    background-size: 100% 20px;
+    background-origin: content-box;
+    background-attachment: local;
+    border: 0;
+  }
+
+  .textarea.note.anger {
+    background: linear-gradient(to top, #999 1px, #ffd6d7 1px);
+    line-height: 30px;
+    background-size: 100% 30px;
+    background-origin: content-box;
+    background-attachment: local;
+    border: 0;
+  }
+
+  .textarea.note.anger.index {
+    background: linear-gradient(to top, #999 1px, #ffd6d7 1px);
+    line-height: 20px;
+    background-size: 100% 20px;
+    background-origin: content-box;
+    background-attachment: local;
+    border: 0;
+  }
+
+  .textarea.note.sorrow {
+    background: linear-gradient(to top, #999 1px, #dce3ff 1px);
+    line-height: 30px;
+    background-size: 100% 30px;
+    background-origin: content-box;
+    background-attachment: local;
+    border: 0;
+  }
+
+  .textarea.note.sorrow.index {
+    background: linear-gradient(to top, #999 1px, #dce3ff 1px);
+    line-height: 20px;
+    background-size: 100% 20px;
+    background-origin: content-box;
+    background-attachment: local;
+    border: 0;
+  }
+
+  .textarea.note.fun {
+    background: linear-gradient(to top, #999 1px, #e2ffeb 1px);
+    line-height: 30px;
+    background-size: 100% 30px;
+    background-origin: content-box;
+    background-attachment: local;
+    border: 0;
+  }
+
+  .textarea.note.fun.index {
+    background: linear-gradient(to top, #999 1px, #e2ffeb 1px);
+    line-height: 20px;
+    background-size: 100% 20px;
+    background-origin: content-box;
+    background-attachment: local;
+    border: 0;
+  }
+}
+
+.css-1yoqdfl {
+  align-items: center;
+}
+
+.chakra-modal__content-container.css-v9b9hc {
+  align-items: center;
+}
