@@ -133,15 +133,6 @@ export const SignUp: VFC = memo(() => {
                   type="email"
                   name="email"
                 />
-                <Input
-                  placeholder="パスワード"
-                  value={value.password}
-                  onChange={(e) => handleChange(e)}
-                  type="password"
-                  name="password"
-                  variant="flushed"
-                  focusBorderColor="#47789F"
-                />
                 <PrimaryInput
                   placeholder="パスワード"
                   value={value.password}

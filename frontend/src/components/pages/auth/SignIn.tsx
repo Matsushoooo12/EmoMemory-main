@@ -6,6 +6,7 @@ import {
   InputGroup,
   Stack,
   Link,
+  Text,
 } from '@chakra-ui/react';
 import React, { memo, useCallback, useContext, useState, VFC } from 'react';
 import Cookies from 'js-cookie';
@@ -31,8 +32,8 @@ export const SignIn: VFC = memo(() => {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const { setIsSignedIn, setCurrentUser } = useContext<any>(AuthContext);
   const [value, setValue] = useState({
-    email: '',
-    password: '',
+    email: 'test1@gmail.com',
+    password: 'testtesttest',
   });
 
   const handleReset = () => {
@@ -103,9 +104,12 @@ export const SignIn: VFC = memo(() => {
             />
           </Flex>
           <Box width="320px" mx="auto">
-            <Heading as="h1" fontSize="32px" mt="20px" mb="32px">
+            <Heading as="h1" fontSize="32px" mt="20px" mb="8px">
               ログイン
             </Heading>
+            <Text fontSize="12px" mb="32px">
+              そのままログインボタンを押すとテストログインできます。
+            </Text>
             <form>
               <InputGroup display="block" position="relative">
                 <Stack spacing="40px">
